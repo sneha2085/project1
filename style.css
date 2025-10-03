@@ -1,0 +1,255 @@
+
+@font-face {
+    font-family: freesans;
+    src: url(./FreeSans.otf);
+}*{
+    font-family: freesans;
+ margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(to right ,rgb(187, 207, 216) 60%,rgb(230, 197, 208));;
+}
+#lnav{
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+}
+lnav h4{
+    color: black;
+    font-weight: 100;
+}
+#f{
+    color: white;
+}
+#midnav{
+    position: absolute;
+    margin-left: 500px;
+    /* margin-top: -40px; */
+   width: 350px;
+   display: flex;
+   justify-content: space-between;
+
+}
+#midnav a{
+   text-decoration: none;
+   color: black;
+
+}
+#button{
+    margin-left: 1100px;
+    margin-top: -40px;
+    width: 180px;
+}
+#button button{
+    border:1px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 7px 40px;
+    padding-right: 55px;
+}
+#footer{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(1, 1, 22, 0.863);
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+}
+#footer p{
+    position:absolute;
+    font-size: 22px;
+    color: white;
+    margin: 20px 3px;
+    left: 15%;
+}
+#footer img{
+    height: 30px;
+    width:30px;
+    margin-top:20px;
+    border-radius: 7px;
+    position: absolute;
+}
+#fir{
+    left:3%;
+}
+#s{
+    left:5%;
+}
+#t{
+left:7%;
+}
+#fo{
+    left:9.5%
+}
+#fi{
+    left: 12.5%;
+}
+#footer #plus{
+    position: absolute;
+    left: 17%;
+}
+#content{
+    align-items: center;
+}
+#btmb{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    left: 1170px;
+    bottom:30%;
+    padding:5px 20px;
+}
+#l2{
+    font-size: 80px;
+    color: white;
+    
+    margin-top: 50px;
+    margin-left: 120px;
+   
+}
+#l3{
+    font-size: 80px;
+    color: white;
+     margin-left: 120px;
+     margin-top: -35px;
+}
+#content #shirt{
+    height: 500px;
+    position: absolute;
+    left:16%;
+    top:12%;
+}
+#l22{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top:52%;
+    left:39%;
+}
+#l1{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top:40%;
+    left:8%;
+}
+#l4{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top:74%;
+    left:9%;
+}
+#p1{
+    width: 200px;
+    height:50px;
+    position: absolute;
+    top:25%;
+    left:25%;
+    z-index: 1;
+}
+#p1 img{
+    height:40px;
+    position: absolute;
+    left:80%;
+}
+.imgs{
+    height:40px;
+    margin-top: 150px;
+}
+#ones{
+    margin-left:110px;
+}
+#btmright{
+    height:220px;
+    width: 150px;
+    position:absolute;
+    right:10%;
+    top:43%;
+    border-radius: 10px;
+    background-color: rgb(203, 221, 228);
+    /* opacity: 0.5; */
+    align-items: center;
+}
+#btmright img{
+    height: 100px;
+    border-radius: 10px;
+    margin-left:30px;
+    margin-top:20px;
+    background-color: rgb(229, 235, 238);
+
+}
+#btmright h1{
+    margin-left:40px;
+    margin-top:8px;
+    opacity: 1;
+}
+#btmright p{
+    font-size: 12px;
+    margin-left:40px;
+    padding-top: 5px;
+    opacity: 1;
+    
+}
+#btmright #sp{
+    margin-left:25px; 
+    padding-top: 0px;
+    opacity:1;
+}
+#p1 #one{
+    top:12%;
+    left:0.5%;
+   rotate: x 180deg ;
+   rotate:y 180deg;
+}
+#p1 #two{
+    top:12%;
+}
+#p1 p{
+    margin-left: 15px;
+    padding:8px 20px;
+    font-size: 13px;
+}
+#p2{
+    width: 200px;
+    height:50px;
+    position: absolute;
+    top:35%;
+    left:55%;
+    z-index: 1;
+}
+#p2 img{
+height:40px;
+    position: absolute;
+    left:80%;
+}
+#p2 #one{
+    top:12%;
+    left:0.5%;
+   rotate: x 180deg ;
+   rotate:y 180deg;
+}
+#p2 #two{
+    top:12%;
+}
+#p2 p{
+    margin-left: 18px;
+    padding:10px 25px;
+    font-size: 13px;;
+}
+#psi{
+    height:20px;
+    top:8.5%;
+    right:9.5%;
+    position: absolute;
+}
